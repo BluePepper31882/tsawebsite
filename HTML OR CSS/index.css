@@ -1,4 +1,4 @@
-body {margin:25px;
+body {
       background-color: rgb(145, 145, 145);}
 
 /* style for image and text combination */
@@ -7,7 +7,7 @@ div.polaroid {
   background-color: rgb(85, 34, 90);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
-  margin-left: 110px;
+  margin-left: 25px;
   transition: transform .2s;
   cursor: pointer;
   position: relative;
@@ -39,9 +39,11 @@ div.container {
 
 div.Francis{
   margin: auto;
-  width: 75%;
-  display: block;
+  justify-content: center;
+  width: 100%;
+  display: flex;
   padding: 10px;
+  align-items: center;
 }
 
 img.image {

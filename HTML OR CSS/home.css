@@ -1,0 +1,46 @@
+.body {
+    margin: auto;
+}
+
+a.normalButton {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 25px;
+    padding: 18px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a.normalButton:hover {
+    text-decoration: underline;
+}
+
+a.specialButton {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 18px;
+    margin-right: 25px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+a.specialButton:hover {
+    background-color: #396ca3;
+    text-decoration: underline;
+}
+
+div.dropBtn {
+    position: relative;
+    display: inline-flex;
+}
+
+div.FrancisSr {
+    margin: auto;
+    justify-content: right;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: right;
+}
