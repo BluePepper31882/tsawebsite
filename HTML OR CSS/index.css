@@ -136,3 +136,40 @@ img.animated{
   background-color: #3e8e41;
 }
 
+
+a.specialButton {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+
+div.specialButtonPadding {
+  background-color: blue;
+  padding: 18px;
+  border-radius: 15px;
+  margin-right: 25px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a.specialButton::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: center;
+  transition: transform 0.25s ease-out;
+}
+
+a.specialButton:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
