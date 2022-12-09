@@ -312,6 +312,11 @@ body {
     font-family: "Poppins", sans-serif;
     width: 30%;
     background-color: white;
+    margin-left: 10px;
+  }
+
+  .form {
+    margin-left: 10px;
   }
 
   input[type=text], select {

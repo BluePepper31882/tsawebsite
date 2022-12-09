@@ -1,113 +1,4 @@
-@import url('https//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-*
-
-
-body {
-    background-color: transparent;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-img.logo {
-    height: 59px;
-    justify-content: left;
-    align-items: left;
-    margin-right: auto;
-    margin-left: 20px;
-    display: flex;
-    box-sizing: inherit;
-    border-radius: 15px;
-}
-
-
-a.normalButton {
-    margin-right: 25px;
-    font-size: 20px;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-}
-
-a.normalButton::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    transform-origin: center;
-    transition: transform 0.25s ease-out;
-}
-
-a.normalButton:hover::after {
-    transform: scaleX(1);
-    transform-origin: center;
-}
-
-a.specialButton {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 20px;
-    display: inline-block;
-    position: relative;
-    transition: 0.2s;
-}
-
-div.specialButtonPadding {
-    background-color: blue;
-    padding: 18px;
-    border-radius: 15px;
-    margin-right: 25px;
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-a.specialButton::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: white;
-    transform-origin: center;
-    transition: transform 0.25s ease-out;
-}
-
-a.specialButton:hover::after {
-    transform: scaleX(1);
-    transform-origin: center;
-}
-
-div.dropBtn {
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    display: inline-flex;
-    padding: 18px;
-}
-
-div.FrancisSr {
-    /* justify-content: right; */
-    width: 100%;
-    background-color: lightblue;
-    font-family: 'Poppins', sans-serif;
-    border-bottom: black 2px solid;
-    padding: 10px;
-    box-sizing: inherit;
-    display: flex;
-    font-weight: bolder;
-    left: 0;
-}
-
+/* Parallax  */
 .wrapper {
     font-family: 'Poppins', sans-serif;
     height: 100%;
@@ -116,7 +7,6 @@ div.FrancisSr {
     overflow-x: hidden;
     perspective: 10px;
 }
-
 header {
     position: relative;
     display: flex;
@@ -126,26 +16,12 @@ header {
     transform-style: preserve-3d;
     z-index: -1;
 }
-
-.background{
-    transform: translateZ(-10px) scale(2);
-    box-sizing: inherit;
-}
-
-.foreground{
-    transform: translateZ(-5px) scale(1);
-    box-sizing: inherit;
-}
-
 .wrapper::-webkit-scrollbar {
     display: none;
   }
-
 .body::-webkit-scrollbar {
     display: none;
   }
-
-
 .background {
     position: absolute;
     height: 135%;
@@ -153,8 +29,12 @@ header {
     object-fit: none;
     z-index: -1;
     box-sizing: inherit;
+    transform: translateZ(-10px) scale(2);
+    box-sizing: inherit;
 }
 .foreground {
+    transform: translateZ(-5px) scale(1);
+    box-sizing: inherit;
     position: absolute;
     height: 135%;
     width: 100%;
@@ -170,7 +50,6 @@ header {
     text-shadow: 0 0 5px black;
 
 }
-
 section {
     font-size: 25px;
     padding: 0px;
@@ -178,6 +57,7 @@ section {
     background-color: black;
     color: white;
 }
+
 
 .homeExplanation{
     position: flex;
@@ -192,19 +72,10 @@ section {
 }
 
 
-
-
-
-
-
-
-
-
-  
 @media only screen and (min-width: 768px) {
 
 }
-
+/* Star Styles */
 span
 {
   position: absolute;
@@ -219,7 +90,6 @@ span
   0 0 0 8px rgba(255,255,255,0.1),
   0 0 20px rgba(225,225,225,1);
   animation: animate 3s linear infinite;
-
 }
 span::before
 {
@@ -306,7 +176,6 @@ span:nth-child(8)
     animation-delay: 1.8s;
     animation-duration: 4s;
 }
-
 .stars{
     z-index: 4;
 }

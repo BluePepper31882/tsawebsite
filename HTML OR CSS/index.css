@@ -20,7 +20,6 @@ div.polaroid {
   position: relative;
   display: inline-block;
 }
-
 a.title {
   text-align: center;
   margin: auto;
@@ -31,12 +30,10 @@ a.title {
   font-size: 36px;
   font-family: 'Poppins', sans-serif;
 }
-
 /* hover property for growing on the poleroid style*/
 .polaroid:hover{
     transform:scale(1.1);
 }
-
 /*Text center for under poleroid part*/
 div.container {
   display: inline-block;
@@ -55,7 +52,7 @@ div.container {
   margin: 0px;
 }
 
-div.Francis{
+div.PolaroidGroup{
   margin: auto;
   justify-content: center;
   display: flex;
@@ -211,7 +208,7 @@ a.normalButton:hover::after {
     transform-origin: center;
 }
 
-div.FrancisJr {
+div.PolaroidTop {
     margin-top: 20px;
 }
 
