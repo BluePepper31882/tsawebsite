@@ -1,0 +1,46 @@
+<html> 
+<head> 
+    <link rel="stylesheet" href = "careers.css">
+    <title> Careers </title>
+</head>
+
+<body>
+
+
+<div class="FrancisSr">
+    <img src="logo.png" class="logo" alt="space 1 logo" onclick="window.location.replace('home.html')"/>
+    <div class="dropBtn">
+    <a class="normalButton" onclick="window.location.replace('careers.html')"> Careers </a>
+    <a class="normalButton" onclick="window.location.replace('about.html')">About Us</a>
+    </div>
+    <div class="specialButtonPadding">
+    <a class="specialButton" onclick="window.location.replace('index.html')" onclick="window.location.replace('index.html')">Plan Your Trip</a>
+        </div>
+</div>
+
+<div class="intro">
+    <h1 style="font-weight: bolder;">Space-1 Careers</h1>
+    <a> At Space-1 space travel agency, careers may include working as a space travel agent, helping customers plan and book their dream vacations to far-off planets and moons. Other roles could include spacecraft engineers, who design and build the ships that will transport passengers to their destinations, and mission controllers, who monitor and manage space flights to ensure the safety and success of each journey. Other potential careers could include space tourism marketers, who promote the agency and its services to potential customers, and space flight instructors, who provide training to passengers on how to prepare for and enjoy their space travel experience. </a>
+    
+</div>
+<div>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Available Positions</label>
+      <select id="country" name="country">
+        <option value="australia">Flight Crew</option>
+        <option value="canada">Spacecraft Engineer</option>
+        <option value="usa">Space Fligth Instructor</option>
+      </select>
+    
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>
