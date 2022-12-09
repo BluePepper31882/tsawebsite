@@ -1,0 +1,102 @@
+@import url('https//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Zen Dots');    
+*
+
+
+body {
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Heading used on multiple web pages for navigation */
+div.Header {
+    /* justify-content: right; */
+    width: 100%;
+    background-color: lightblue;
+    font-family: 'Zen Dots', sans-serif;
+    border-bottom: black 2px solid;
+    padding: 10px;
+    box-sizing: inherit;
+    display: flex;
+    font-weight: bolder;
+    left: 0;
+}
+/* parts of the heading */
+img.logo {
+    height: 59px;
+    justify-content: left;
+    align-items: left;
+    margin-right: auto;
+    margin-left: 20px;
+    display: flex;
+    box-sizing: inherit;
+    border-radius: 15px;
+}
+a.normalButton {
+    margin-right: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+a.normalButton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+a.normalButton:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+a.specialButton {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+}
+div.specialButtonPadding {
+    background-color: blue;
+    padding: 18px;
+    border-radius: 15px;
+    margin-right: 25px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+a.specialButton::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+}
+a.specialButton:hover::after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+div.dropBtn {
+    position: relative;
+    display: inline-flex;
+    padding: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+}
