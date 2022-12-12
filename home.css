@@ -1,3 +1,4 @@
+
 /* Parallax  */
 .wrapper {
     font-family: 'Zen Dots';
@@ -63,15 +64,11 @@ section {
     position: flex;
     justify-content: center;
     box-sizing: inherit;
-    width: 80%;
-    border-radius: 15px;
-    margin-right: auto;
-    margin-left: auto;
     align-items: center;
     background-color: #b582d1;
     font-family: 'Zen Dots', sans-serif;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 0px;
     margin-top: 20px;
     padding-bottom: 500px;
 }
@@ -186,7 +183,7 @@ span:nth-child(8)
 }
 
 body {
-    background-image: 'blue.png';
+    background-color: aqua;   
     background-repeat: repeat;
 }
 
@@ -195,7 +192,30 @@ div.homeExplanation{
     padding-right: 50px;
 }
 
-hr.divider {
-    margin-top: 50px;
-    margin-bottom: 50px;
+.bottomStuff{
+    position: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: inherit;
+    align-items: center;
+    background-color: lightblue;
+    font-family: 'Zen Dots', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
 }
+
+.evenbottomerStuff{
+    position: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: inherit;
+    align-items: center;
+    background-color: gray;
+    font-family: 'Zen Dots', sans-serif;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+
