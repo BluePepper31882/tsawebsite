@@ -4,7 +4,8 @@ margin: 0px;
 box-sizing: border-box;
 }
 
-.FrancisBig {
+/* Basically the body */
+.Workspace {
   width: 100vh;
   height:100vw;
   transform-origin: top left;
@@ -13,65 +14,35 @@ box-sizing: border-box;
   position: absolute;
   overflow-x: hidden;
 }
-
-.FrancisSmall {
+/* Encapsulates the two background panes */
+.Pane {
   display: flex;
   width: 200vw;
   transform-origin: top left;
   transform: rotate(90deg) translateY(-100vh);
 }
-
-.FrancisBig::-webkit-scrollbar {
+/* hides scroll bar */
+.Workspace::-webkit-scrollbar {
   display: none;
 }
-
-.FrancisV {
+/* Space images, used as background (general class for the two children) */
+.Background {
   height: 100vh;
   width: 100vw;
   position: relative;
 }
-
-.FrancisVI {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  background-position: bottom;
-  background-size: cover;
+/* children and properties for the actual background pictures */
+.Background:nth-child(1) {
+  background-image: url('blackSpace.jpg');
+  background-size: contain;
 }
-
-.background {
-  background-image: url(blackSpace.jpg);
-  z-index: -4;
-}
-
-.moon{
-  background-image: url("moonPNG.png");
-  transform: scale(0.2);
-  width: 400px;
-  height: 391px;
-  margin-left: auto;
-  z-index: 10;
-}
-
-
-.III {
-  background-image: url(blackSpace.jpg);
+.Background:nth-child(2) {
+  background-image: url('blackSpace.jpg');
+  background-size: contain;
   transform: rotate(180deg);
 }
 
-.earth {
-  background-image: url("Earth.png");
-  transform: scale(0.2);
-  width: 400px;
-  height: 400px;
-  padding: 400px;
-  background-repeat: no-repeat;
-  z-index: 10;
-  transform: translateX(4600px) translateY(800px);
-}
-
+/* Styling for the packages button */
 button {
   z-index: -1;
   height: 5%;
@@ -82,8 +53,6 @@ button {
   font-family: "Zen Dots", sans-serif;
   transition: 0.2s;
 }
-
 button:hover {
   transform: scale(1.2);
-
 }
