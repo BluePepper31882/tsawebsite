@@ -118,14 +118,6 @@ img.animated{
     to {width:100vw; height:200vw}
 }
 
-a.specialButton {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  overflow: hidden;
-  font-size: 20px;
-  transition: 0.2s;
-}
-
 div.FrancisSr {
   justify-content: right;
   border-bottom: black 2px solid;
@@ -139,73 +131,6 @@ div.francisIII {
   justify-content: right;
   margin-right: auto;
   display: flex;
-}
-
-a.specialButton {
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-size: 20px;
-  display: inline-block;
-  position: relative;
-  transition: 0.2s;
-}
-
-div.specialButtonPadding {
-  background-color: blue;
-  padding: 18px;
-  height: 50%;
-  box-sizing: inherit;
-  border-radius: 15px;
-  margin-right: 25px;
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-a.specialButton::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  transform-origin: center;
-  transition: transform 0.25s ease-out;
-}
-
-a.specialButton:hover::after {
-  transform: scaleX(1);
-  transform-origin: center;
-}
-
-a.normalButton {
-    margin-right: 25px;
-    font-size: 20px;
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-}
-
-a.normalButton::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: black;
-    transform-origin: center;
-    transition: transform 0.25s ease-out;
-}
-
-a.normalButton:hover::after {
-    transform: scaleX(1);
-    transform-origin: center;
 }
 
 div.PolaroidTop {
@@ -223,13 +148,6 @@ div.FrancisSr {
   display: flex;
   font-weight: bolder;
   left: 0;
-}
-
-div.dropBtn {
-  font-family: 'Poppins', sans-serif;
-  position: relative;
-  display: inline-flex;
-  padding: 18px;
 }
 
 div.FrancisOfParallax {
