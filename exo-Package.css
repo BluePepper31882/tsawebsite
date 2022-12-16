@@ -6,6 +6,7 @@ box-sizing: border-box;
 
 /* Basically the body */
 .Workspace {
+
   width: 100vh;
   height:100vw;
   transform-origin: top left;
@@ -40,6 +41,15 @@ box-sizing: border-box;
   background-image: url('blackSpace.jpg');
   background-size: contain;
   transform: rotate(180deg);
+}
+
+.moon {
+  transform: scale(.1) translateX(-450%) translateY(-425%);
+  
+}
+
+.earth {
+  transform: scale(.29) translateX(400%);
 }
 
 /* Styling for the packages button */
