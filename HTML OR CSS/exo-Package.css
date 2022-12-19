@@ -1,5 +1,5 @@
 html {
-  max-width: 120vw;
+  max-width: 100%;
 }
 
 
@@ -7,7 +7,7 @@ body {
   background-color: rgb(145, 145, 145);
 margin: 0px;
 box-sizing: border-box;
-max-height: 80vw;
+max-height: 100vw;
 max-width: 120vh;
 }
 
@@ -15,6 +15,7 @@ max-width: 120vh;
 .Workspace {
 
   width: 100vh;
+  height: 300%;
   transform-origin: top left;
   transform: rotate(-90deg) translateX(-100vh);
   overflow-y: scroll;
@@ -39,8 +40,7 @@ max-width: 120vh;
 
 /* Space images, used as background (general class for the two children) */
 .Background {
-  height: 100%;
-  width: 100vw;
+  height: 120%;
   position: relative;
 }
 /* children and properties for the actual background pictures */
@@ -62,13 +62,13 @@ max-width: 120vh;
 }
 /* Earth image */
 .earth {
-  transform: scale(.29) translateX(450%);
+  transform: scale(.29) translateX(475%);
 }
 
 /* Styling for the packages button */
-button {
+.return {
   z-index: -1;
-  height: 5%;
+  height: 50px;
   width: 100%;
   background-color: black;
   color: white;
@@ -76,6 +76,6 @@ button {
   font-family: "Zen Dots", sans-serif;
   transition: 0.2s;
 }
-button:hover {
+.return:hover {
   transform: scale(1.2);
 }
