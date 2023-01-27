@@ -32,6 +32,7 @@ img.logo {
     align-items: left;
     margin-right: auto;
     margin-left: 20px;
+    cursor: pointer;
     display: flex;
     box-sizing: inherit;
     border-radius: 15px;
