@@ -4,14 +4,23 @@ margin: 0px;
 box-sizing: border-box;
 }
 
+.Title {
+  font-family: "Zen Dots";
+  font-size: 64px;
+}
+
+
 .missionstatement {
-  padding-left: 50px;
-  margin-left: 100px;
+  font-family: "Zen Dots";
+  font-size: x-large;
+  margin-top: 50px;
+
 }
 .visionstatement {
-  padding-left 50px;
-  margin-left: 100px;
-  text align: right;
+  font-family: "Zen Dots";
+  font-size: x-large;
+  margin-top: 50px;
+  
   
 }
 
