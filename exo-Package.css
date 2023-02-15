@@ -57,20 +57,21 @@ max-width: 120vh;
 }
 /* Moon image */
 .moon {
-  transform: scale(.1) translateX(-450%) translateY(-425%);
+  transform: scale(.1) translateX(0%) translateY(-425%);
   
 }
 /* Earth image */
 .earth {
-  transform: scale(.29) translateX(-425%) translateY(-425%);
+  transform: scale(.29) translateX(-100%) translateY(-800%);
   
 }
 
 .text {
-  transform: translateX(-425%) translateY(-425%);
+  transform: translateY(-3600%) translateX(60%);
+  z-index: 32;
+  width: 20%;
   font-size: xx-large;
   color: white;
-  background-color: red;
 }
 
 /* Styling for the packages button */
