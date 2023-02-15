@@ -98,3 +98,10 @@
   .Title2 {
     font-size: 40px;
   }
+
+  .title3{
+    margin: auto;
+    margin-top: 10%;
+    font-family: "Zen Dots";
+    color: black;
+  }
