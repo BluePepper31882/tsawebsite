@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(145, 145, 145);
+margin: 0px;
+box-sizing: border-box;
+}
+
+.Title {
+  font-family: "Zen Dots";
+  font-size: 64px;
+}
+
+.missiontitle {
+  font-family: "Zen Dots";
+  font-size: medium;
+  margin-left: 10px ;
+
+}
+
+.missionstatement {
+  font-family: "Zen Dots";
+  font-size: x-large;
+  display: inline-flex;
+  float: left;
+  width: 100%
+
+}
+
+.missionimage{
+  padding: 5%;
+  float: right;
+  background-color: aqua;
+  margin-left: auto;
+  margin-right: 10%;
+}
+
+.visiontitle {
+  font-family: "Zen Dots";
+  font-size: medium;
+  margin-left: 52%;
+
+}
+.visionstatement {
+  font-family: "Zen Dots";
+  font-size: x-large;
+  float: right;
+  width: 100%;
+display: inline-flex;
+  
+}
+.visionimage {
+  padding: 5%;
+  float: left;
+  background-color: aqua;
+  margin-right: auto;
+  margin-left: 10%;
+}
+
