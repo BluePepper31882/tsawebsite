@@ -42,7 +42,6 @@ max-width: 120vh;
 .Background {
   height: 120%;
   position: relative;
-  width: 100%;
 }
 /* children and properties for the actual background pictures */
 .Background:nth-child(1) {
@@ -58,26 +57,21 @@ max-width: 120vh;
 }
 /* Moon image */
 .moon {
-  transform: scale(.1) translateX(0%) translateY(-425%);
+  transform: scale(.1) translateX(-450%) translateY(-425%);
   
 }
 /* Earth image */
 .earth {
-  transform: scale(.29) translateX(-100%) translateY(-800%);
+  transform: scale(.29) translateX(-425%) translateY(-425%);
   
 }
 
 .text {
-  transform: translateY(-700%) translateX(65%);
-  z-index: 32;
-  width: 20%;
+  transform: translateX(-425%) translateY(-425%);
   font-size: xx-large;
   color: white;
-  position: relative;
-  font-family: "Zen Dots";
-  text-align: center;
+  background-color: red;
 }
-
 
 /* Styling for the packages button */
 .return {

@@ -15,8 +15,8 @@
 
 .flip-card {
     background-color: transparent;
-    width: 400px;
-    height: 532px;
+    width: 450px;
+    height: 601px;
     perspective: 1000px;
     font-family: sans-serif;
   }
@@ -71,37 +71,18 @@
 
   .container1 {
     position: absolute;
-    margin-left: 2.5%;
-    margin-top: 4%;
+    margin-left: 10%;
+    margin-top: 5%;
   }
 
   .container2 {
     position: absolute;
-    margin-left: 35%;
-    margin-top: 4%;
+    margin-left: 40%;
+    margin-top: 5%;
   }
 
   .container3 {
     position: absolute;
-    margin-left: 67.5%;
-    margin-top: 4%;
-  }
-
-  .header2 {
-    width: 100%;
-    position:absolute;
-    height: 6%;
-    font-family: "Zen Dots";
-    text-align: center;
-  }
-
-  .Title2 {
-    font-size: 40px;
-  }
-
-  .title3{
-    margin: auto;
-    margin-top: 10%;
-    font-family: "Zen Dots";
-    color: black;
+    margin-left: 70%;
+    margin-top: 5%;
   }
