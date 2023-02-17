@@ -26,6 +26,7 @@ max-width: 120vh;
 .Pane {
   display: flex;
   width: 200vw;
+  height: 100vh;
   transform-origin: top left;
   transform: rotate(90deg) translateY(-100vh);
 }
@@ -40,8 +41,9 @@ max-width: 120vh;
 
 /* Space images, used as background (general class for the two children) */
 .Background {
-  height: 120%;
-  position: relative;
+  height: 100vh;
+  position: absolute;
+  width: 350vw;
 }
 /* children and properties for the actual background pictures */
 .Background:nth-child(1) {
@@ -57,27 +59,88 @@ max-width: 120vh;
 }
 /* Moon image */
 .moon {
-  transform: scale(.1) translateX(-450%) translateY(-425%);
+  height: 10vw;
+  width: 10vw;
+  position: absolute;
+  margin-left: 65vw;
+  margin-top: 15vh;
   
 }
 /* Earth image */
 .earth {
-  transform: scale(.29) translateX(-425%) translateY(-425%);
+  height: 20vw;
+  width: 20vw;
+  position: absolute;
+  margin-top: 30vh;
   
 }
 
-.text {
-  transform: translateX(-425%) translateY(-425%);
-  font-size: xx-large;
+.exoScreen {
+  z-index: 32;
+  width: 100vw;
   color: white;
-  background-color: red;
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
 }
+
+.text {
+  margin-left: 30vw;
+  margin-top: 20vh;
+  display:flex;
+  width: 30vw;
+  text-align: center;
+  font-family: "Zen Dots";
+  font-size: 2vw;
+  transition: .3s;
+  opacity: 1;
+  color: white;
+}
+
+.text:hover {
+  opacity: 0.4;
+  
+
+}
+
+
+.text:hover + .exoButton {
+  opacity: 1;
+}
+
+
+.exoButton {
+  position:absolute;
+  margin-left: 40vw;
+  margin-top: -35vh;
+  display:flex;
+  width: 10vw;
+  font-family: "Zen Dots";
+  font-size: 1vw;
+  background-color: rgb(202, 197, 176);
+  border-radius: 15px;
+  opacity: 0;
+  transition: .5s;
+}
+
+.exoButton:hover{
+  background-color: rgb(255, 255, 255);
+  opacity: 1;
+  
+}
+
+.exoButton:hover + .text{
+  opacity: 0.4;
+}
+
+
+
 
 /* Styling for the packages button */
 .return {
   z-index: -1;
-  height: 50px;
-  width: 100%;
+  height: 4vw;
+  width: 100vh;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -87,4 +150,46 @@ max-width: 120vh;
 }
 .return:hover {
   transform: scale(1.2);
+}
+
+.return2 {
+  position: absolute;
+  width: 100vh;
+  height: 6vh;
+  background-color: black;
+  color: white;
+  font-family: "Zen Dots", sans-serif;
+  font-size: xx-large;
+  margin-top: 244vw;
+  transition: 0.2s;
+  cursor: pointer;
+  transform: scale(-1,-1);
+
+}
+
+.return2:hover {
+  transform: scale(-1.2);
+}
+
+
+
+.cosmicScreen {
+  margin-left: 100vw;
+  z-index: 32;
+  width: 100vw;
+  color: white;
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.galacticScreen {
+  margin-left: 200vw;
+  z-index: 32;
+  width: 100vw;
+  color: white;
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
+  
 }

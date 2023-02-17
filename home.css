@@ -187,14 +187,10 @@ body {
     background-repeat: repeat;
 }
 
-div.homeExplanation{
-    background-image: url('exo.png');
-    padding-left: 50px;
-    padding-right: 50px;
-}
+
 
 .bottomStuff{
-    position: flex;
+    position: relative;
     justify-content: center;
     text-align: center;
     box-sizing: inherit;
@@ -203,7 +199,7 @@ div.homeExplanation{
     font-family: 'Zen Dots', sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
-
+   
 }
 
 .evenbottomerStuff{
@@ -219,4 +215,35 @@ div.homeExplanation{
 
 }
 
+.youtube{
+    display: inline-block;
+    margin-left: 3%;
+    
+}
 
+.insta{
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+.twit{
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+.space{
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+
+.link{
+    display: inline-block;
+    margin-left: 3%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
