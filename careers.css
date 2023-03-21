@@ -1,10 +1,13 @@
 .WorkSpace {
-  background-color: rgb(105, 105, 105);
-  height: 100%;
-  width: 100%;
+  background-color: black;
+  height: 200vh;
+  width: 100vw;
   
 }
   
+.body {
+  background-color: black;
+}
 
 .Title {
   width: 70%;
@@ -14,10 +17,56 @@
   font-size: 75px;
   font-family: "Zen Dots";
   margin-bottom: 1%;
+  color: white;
 }
 
 * {
     box-sizing: border-box;
+}
+
+
+.CareerButton {
+  color: white;
+  text-align: center;
+  width: 20vw;
+  background-color: grey;
+  margin-left: 10vw;
+}
+
+.HiddenText{
+  opacity: 0;
+  color: white;
+  position: absolute;
+  left: 0;
+  width: 20vw;
+  margin-left: 10vw;
+  text-align: center;
+  margin-top: 4vw;
+}
+
+
+.JackImage{
+  width: 20vw;
+  filter: brightness(100%);
+  -webkit-transition: brightness 1s;
+}
+
+.JackImage:hover{
+  filter: brightness(50%);
+  -webkit-transition: brightness 1s;
+}
+
+.JackImage:hover ~.HiddenText{
+  opacity: 1;
+  transition: 1s;
+}
+
+.Caption {
+  width: 100%;
+  color: white;
+  display: block;
+  text-align: center;
+  background-color: grey;
 }
 
 
@@ -27,6 +76,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 
