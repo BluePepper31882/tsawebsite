@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(145, 145, 145);
+background-color: rgba(128, 128, 128, 0.438);
 margin: 0px;
 box-sizing: border-box;
 }
@@ -19,18 +19,17 @@ box-sizing: border-box;
 .missionstatement {
   font-family: "Zen Dots";
   font-size: x-large;
-  display: inline-flex;
-  float: left;
+  margin-left: 1%;
   width: 100%
 
 }
 
 .missionimage{
-  padding: 5%;
-  float: right;
-  background-color: aqua;
-  margin-left: auto;
-  margin-right: 10%;
+  position:absolute;
+  margin-left: 50%;
+ margin-right:10%;
+
+
 }
 
 .visiontitle {
@@ -42,16 +41,22 @@ box-sizing: border-box;
 .visionstatement {
   font-family: "Zen Dots";
   font-size: x-large;
-  float: right;
-  width: 100%;
-display: inline-flex;
-  
+  margin-left: 60%;
+display: inline-flex; 
 }
 .visionimage {
   padding: 5%;
   float: left;
-  background-color: aqua;
   margin-right: auto;
-  margin-left: 10%;
-}
+  margin-right: 60%;
 
+}
+.safetytitle {
+  font-family: "Zen Dots";
+}
+.safetystatement {
+  font-family: "Zen Dots";
+  font-size: x-large;
+  margin-right:50%;
+
+}
