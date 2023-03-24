@@ -1,55 +1,51 @@
 body {
-background-color: rgba(128, 128, 128, 0.438);
+background-color: rgb(128, 128, 128);
 margin: 0px;
 box-sizing: border-box;
 }
 
 .Title {
   font-family: "Zen Dots";
-  font-size: 64px;
+  font-size: 96px;
+  margin-left: 1%;
 }
 
 .missiontitle {
   font-family: "Zen Dots";
-  font-size: medium;
-  margin-left: 10px ;
-
+  font-size: x-large;
+  margin-left: 3%;
 }
 
 .missionstatement {
+  align-items:center;
+  float: left;
   font-family: "Zen Dots";
-  font-size: x-large;
-  margin-left: 1%;
-  width: 100%
-
+  font-size: xx-large;
+  margin-left: 4%;
 }
-
-.missionimage{
-  position:absolute;
-  margin-left: 50%;
- margin-right:10%;
-
-
+.missionstatement img{
+  padding: 2%;
+  border-radius: 15%;
+  float: right;
 }
 
 .visiontitle {
   font-family: "Zen Dots";
-  font-size: medium;
-  margin-left: 52%;
-
+  font-size: x-large;
+  margin-left: 3%;
+  
 }
 .visionstatement {
+  display: flex;
+  align-items: center;
   font-family: "Zen Dots";
-  font-size: x-large;
-  margin-left: 60%;
-display: inline-flex; 
+  font-size: xx-large;
+  margin-left: 4%;
 }
-.visionimage {
-  padding: 5%;
-  float: left;
-  margin-right: auto;
-  margin-right: 60%;
-
+.visionstatement img{
+  float: right;
+  padding: 2%;
+  border-radius: 15%;
 }
 .safetytitle {
   font-family: "Zen Dots";
@@ -57,6 +53,5 @@ display: inline-flex;
 .safetystatement {
   font-family: "Zen Dots";
   font-size: x-large;
-  margin-right:50%;
 
 }
