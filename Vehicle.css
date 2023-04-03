@@ -15,15 +15,15 @@
 
 .flip-card {
     background-color: transparent;
-    width: 400px;
-    height: 532px;
+    width: 20vw;
+    height: 50vh;
     perspective: 1000px;
     font-family: sans-serif;
   }
   
   .title {
     color: black;
-    font-size: 1.5em;
+    font-size: 2vw;
     font-weight: 900;
     text-align: center;
     margin: 5;
@@ -69,27 +69,30 @@
     transform: rotateY(180deg);
   }
 
+  .containers {
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .container1 {
-    position: absolute;
-    margin-left: 2.5%;
-    margin-top: 4%;
+    padding: 5vw;
   }
 
   .container2 {
-    position: absolute;
-    margin-left: 35%;
-    margin-top: 4%;
+    padding: 5vw;
   }
 
   .container3 {
-    position: absolute;
-    margin-left: 67.5%;
-    margin-top: 4%;
+    padding: 5vw;
   }
 
   .header2 {
     width: 100%;
     position:absolute;
+    margin: 1vw;
     height: 6%;
     font-family: "Zen Dots";
     text-align: center;
@@ -97,11 +100,20 @@
 
   .Title2 {
     font-size: 40px;
+    color: black;
+    font-family: "Zen Dots";
+    font-size: 1vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 5;
   }
 
   .title3{
-    margin: auto;
-    margin-top: 10%;
-    font-family: "Zen Dots";
+    font-size: 2vw;
     color: black;
+    margin: 2vw;
+    font-size: 5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 5;
   }

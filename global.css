@@ -19,7 +19,7 @@ div.Header {
     background-color: lightblue;
     font-family: 'Zen Dots', sans-serif;
     border-bottom: black 2px solid;
-    padding: 10px;
+    padding: 1vh;
     box-sizing: inherit;
     display: flex;
     font-weight: bolder;
