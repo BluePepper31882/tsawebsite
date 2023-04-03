@@ -6,27 +6,35 @@ box-sizing: border-box;
 .Title {
   font-family: "Zen Dots";
   font-size: 96px;
+  text-align: center;
   margin-left: 1%;
+  color: black;
+  text-shadow: 1px -1px 0 white,
+  1px 1px 0 white,
+  -1px -1px 0 white,
+  -1px 1px 0 white;
 }
 
 .missiontitle {
   font-family: "Zen Dots";
   font-size: x-large;
-  margin-left: 3%;
+  text-indent: 2vw;
+  color: white;
+  padding: 1vw;
+  background-color: black;
 }
 
 .missionstatement {
-  display: flex left;
-  align-items:center;
+  display: flex;
+  align-items:flex-start;
   float: left;
   font-family: "Zen Dots";
   font-size: xx-large;
-  margin-left: 4%;
   background-color: black;
 }
 .missionstatement p{
-  padding: 2%;
   color: white;
+  margin-left: 3vw;
   border-radius: 15%;
   margin-bottom: 5%;
   float: right;
@@ -37,6 +45,12 @@ box-sizing: border-box;
   border-radius: 15%;
   margin-bottom: 5%;
   float: right;
+}
+
+.visionsection {
+  background-color: gray;
+  display: inline-block;
+  padding-bottom: 3vh;
 }
 
 .visiontitle {
