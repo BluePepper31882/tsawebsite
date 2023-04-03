@@ -1,5 +1,4 @@
 body {
-background-color: rgb(128, 128, 128);
 margin: 0px;
 box-sizing: border-box;
 }
@@ -17,6 +16,7 @@ box-sizing: border-box;
 }
 
 .missionstatement {
+  display: flex left;
   align-items:center;
   float: left;
   font-family: "Zen Dots";
@@ -26,13 +26,15 @@ box-sizing: border-box;
 .missionstatement img{
   padding: 2%;
   border-radius: 15%;
+  margin-bottom: 5%;
   float: right;
 }
 
 .visiontitle {
   font-family: "Zen Dots";
   font-size: x-large;
-  margin-left: 3%;
+  text-align: right;
+  margin-right: 3%;
   
 }
 .visionstatement {
@@ -40,7 +42,8 @@ box-sizing: border-box;
   align-items: center;
   font-family: "Zen Dots";
   font-size: xx-large;
-  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 5%;
 }
 .visionstatement img{
   float: right;
@@ -49,9 +52,19 @@ box-sizing: border-box;
 }
 .safetytitle {
   font-family: "Zen Dots";
+  font-size: x-large;
+  margin-left: 3%;
 }
 .safetystatement {
+  display: flex right;
   font-family: "Zen Dots";
   font-size: x-large;
-
+  align-items:center;
+  float: left;
+  margin-left: 4%;
+}
+.safetystatement img{
+  float: right;
+  padding: 2%;
+  border-radius: 15%
 }

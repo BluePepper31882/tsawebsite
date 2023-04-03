@@ -190,29 +190,16 @@ body {
 
 
 .bottomStuff{
-    position: relative;
+    display: block;
     justify-content: center;
     text-align: center;
     box-sizing: inherit;
     align-items: center;
     background-color: lightblue;
     font-family: 'Zen Dots', sans-serif;
+    margin-top: 100vh;
     padding-top: 30px;
     padding-bottom: 30px;
-   
-}
-
-.evenbottomerStuff{
-    position: flex;
-    justify-content: center;
-    text-align: center;
-    box-sizing: inherit;
-    align-items: center;
-    background-color: gray;
-    font-family: 'Zen Dots', sans-serif;
-    padding-top: 200px;
-    padding-bottom: 200px;
-
 }
 
 .youtube{
@@ -236,14 +223,44 @@ body {
     margin-left: 3%;
     
 }
-
 .link{
     display: inline-block;
     margin-left: 3%;
     
 }
-
 a {
     text-decoration: none;
     color: black;
+}
+
+.wholeImage {
+    position: absolute;
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+}
+.image {
+    position: absolute;
+    z-index: 1;
+    width:100vw;
+    height: 100vh;
+}
+.imageText {
+    position: absolute;
+    z-index: 2;
+    font-size: 2vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    width: 55vw;
+}
+
+.bolder {
+    position: absolute;
+    color: white;
+    text-shadow: black 6px 4px 4px;
+    z-index: 2;
+    font-size: 3vw;
+    margin-top: 63vh;
+    margin-left: 15vw;
+    width: 55vw;
 }
