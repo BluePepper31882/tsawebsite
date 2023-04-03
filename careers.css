@@ -46,6 +46,9 @@
   z-index: 10;
 }
 
+.HiddenText:hover{
+  opacity: 1;  
+}
 
 .JackImage{
   width: 20vw;
@@ -60,6 +63,16 @@
 
 .JackImage:hover ~.HiddenText{
   opacity: 1;
+  transition: 1s;
+}
+
+.HiddenText:hover {
+  opacity: 1;
+  transition: 1s;
+}
+
+.HiddenText:hover +.JackImage {
+  filter: brightness(50%);
   transition: 1s;
 }
 

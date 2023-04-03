@@ -22,7 +22,16 @@ box-sizing: border-box;
   font-family: "Zen Dots";
   font-size: xx-large;
   margin-left: 4%;
+  background-color: black;
 }
+.missionstatement p{
+  padding: 2%;
+  color: white;
+  border-radius: 15%;
+  margin-bottom: 5%;
+  float: right;
+}
+
 .missionstatement img{
   padding: 2%;
   border-radius: 15%;

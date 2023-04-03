@@ -23,11 +23,18 @@
     <div class="Title"> Thank you for selecting the Exo-Package </div>
 
     <div class="Select">
-        <img id = "MOON" src="moonPNG.png" class="Image"/>
-        <img id = "earth" src="Earth.png" class="Image"/>
+        <img id = "MOON" src="moonPNG.png" class="fadeOut"/>
+        <img id = "earth" src="Earth.png" class="fadeIn"/>
         <a class="Description" > The Exo-Package is our most affordable package, providing a luxurious experience that can be afforded by everyone. Collect moon-rocks for your collection on the lunar surface, or gaze onto the planet of your birth with our trip into low-earth orbit. </a>
         <div class="dropdown">
-            <button class="dropdownbutton">Select your Destination</button>
+            <button class="dropdownbutton">Select your Destination:</button>
+            <div class="dropdown-content">
+                <button class="button1" onclick = moon(); >The Moon</button>
+                <button class="button2" onclick = venus();>Earth</button>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropdownbutton">Select your Destination:</button>
             <div class="dropdown-content">
                 <button class="button1" onclick = moon(); >The Moon</button>
                 <button class="button2" onclick = venus();>Earth</button>
