@@ -18,6 +18,35 @@ function moon(){
     Calculate()
 }
       
+function mars(){
+    document.getElementById('mars').className = "fadeIn";
+    document.getElementById('button1').style = "background-color: lightgray; color: black;";
+    document.getElementById('asteroid').className = "fadeOut";
+    document.getElementById('button2').style = "";
+    
+
+    document.getElementById('ActivityOne').innerHTML = "Attend a Lecture About Lunar Rocks from Dr. Landon Boa";
+    document.getElementById('ActivityTwo').innerHTML = "";
+    document.getElementById('ActivityThree').innerHTML = "Third Moon Activity";
+
+    document.getElementById('Description').innerHTML = "Since the dawn of man, the moon has been the one constant in the night sky, always showing its bright face, just out of reach. Then, a century ago, humanity conquered the journey to the moon, reaching it in 3 days. Now, with Space One, you can not only reach the moon in less than a day, you can do it in a luxury vehicle makes the Titanic look like a crude art project.";
+    Calculate()
+}
+
+function asteroid(){
+    document.getElementById('asteroid').className = "fadeIn";
+    document.getElementById('button1').style = "background-color: lightgray; color: black;";
+    document.getElementById('mars').className = "fadeOut";
+    document.getElementById('button2').style = "";
+    
+
+    document.getElementById('ActivityOne').innerHTML = "Attend a Lecture About Lunar Rocks from Dr. Landon Boa";
+    document.getElementById('ActivityTwo').innerHTML = "";
+    document.getElementById('ActivityThree').innerHTML = "Third Moon Activity";
+
+    document.getElementById('Description').innerHTML = "Since the dawn of man, the moon has been the one constant in the night sky, always showing its bright face, just out of reach. Then, a century ago, humanity conquered the journey to the moon, reaching it in 3 days. Now, with Space One, you can not only reach the moon in less than a day, you can do it in a luxury vehicle makes the Titanic look like a crude art project.";
+    Calculate()
+}
 function venus(){
 
     document.getElementById('earth').className = "fadeIn";
@@ -34,9 +63,50 @@ function venus(){
     Calculate()
 }
 
-function SpaceWalk(){
-    document.getElementById('Description').innerHTML = "As you soar past the stars and planets, you'll experience the thrill of space travel and the excitement of what lies ahead. Once you arrive at your destination, you'll step out of the spacecraft and into the vast expanse of space. You'll be suited up in a specialized space suit that will protect you from the harsh environment and provide you with the necessary oxygen to breathe. As you take your first steps into the void, you'll feel the weightlessness of space and the incredible sensation of floating above the Earth.";
-    Calculate();
+function saturn(){
+    document.getElementById('saturn').className = "fadeIn";
+    document.getElementById('button1').style = "background-color: lightgray; color: black;";
+    document.getElementById('jupiter').className = "fadeOut";
+    document.getElementById('button2').style = "";
+    
+
+    document.getElementById('ActivityOne').innerHTML = "Attend a Lecture About Lunar Rocks from Dr. Landon Boa";
+    document.getElementById('ActivityTwo').innerHTML = "";
+    document.getElementById('ActivityThree').innerHTML = "Third Moon Activity";
+
+    document.getElementById('Description').innerHTML = "Since the dawn of man, the moon has been the one constant in the night sky, always showing its bright face, just out of reach. Then, a century ago, humanity conquered the journey to the moon, reaching it in 3 days. Now, with Space One, you can not only reach the moon in less than a day, you can do it in a luxury vehicle makes the Titanic look like a crude art project.";
+    Calculate()
+}
+
+function jupiter(){
+    document.getElementById('jupiter').className = "fadeIn";
+    document.getElementById('button1').style = "background-color: lightgray; color: black;";
+    document.getElementById('saturn').className = "fadeOut";
+    document.getElementById('button2').style = "";
+    
+
+    document.getElementById('ActivityOne').innerHTML = "Attend a Lecture About Lunar Rocks from Dr. Landon Boa";
+    document.getElementById('ActivityTwo').innerHTML = "";
+    document.getElementById('ActivityThree').innerHTML = "Third Moon Activity";
+
+    document.getElementById('Description').innerHTML = "Since the dawn of man, the moon has been the one constant in the night sky, always showing its bright face, just out of reach. Then, a century ago, humanity conquered the journey to the moon, reaching it in 3 days. Now, with Space One, you can not only reach the moon in less than a day, you can do it in a luxury vehicle makes the Titanic look like a crude art project.";
+    Calculate()
+}
+
+function saturn(){
+    
+    document.getElementById('saturn').className = "fadeIn";
+    document.getElementById('button1').style = "background-color: lightgray; color: black;";
+    document.getElementById('jupiter').className = "fadeOut";
+    document.getElementById('button2').style = "";
+    
+
+    document.getElementById('ActivityOne').innerHTML = "Attend a Lecture About Lunar Rocks from Dr. Landon Boa";
+    document.getElementById('ActivityTwo').innerHTML = "";
+    document.getElementById('ActivityThree').innerHTML = "Third Moon Activity";
+
+    document.getElementById('Description').innerHTML = "Since the dawn of man, the moon has been the one constant in the night sky, always showing its bright face, just out of reach. Then, a century ago, humanity conquered the journey to the moon, reaching it in 3 days. Now, with Space One, you can not only reach the moon in less than a day, you can do it in a luxury vehicle makes the Titanic look like a crude art project.";
+    Calculate()
 }
 
 function ZeroG(){

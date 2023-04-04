@@ -10,6 +10,7 @@ body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* Heading used on multiple web pages for navigation */
@@ -24,10 +25,11 @@ div.Header {
     display: flex;
     font-weight: bolder;
     left: 0;
+    height: 12vh;
 }
 /* parts of the heading */
 img.logo {
-    height: 59px;
+    height: 60px;
     justify-content: left;
     align-items: left;
     margin-right: auto;
@@ -39,7 +41,7 @@ img.logo {
 }
 a.normalButton {
     margin-right: 25px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
