@@ -1,11 +1,26 @@
+.refheader{
+    font-size: 48px;
+    font-family:"Zen Dots";
+    margin-left: 2%
+}
+.Information{
+    font-family: "Zen Dots";
+    font-size: large;
+    margin-left: 4%;
+}
 
 .CopyRight{
     font-family:"Zen Dots";
-    font-size: xx-large;
+    font-size: x-large;
+    margin-left: 2%;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
 .WorkLog{
     font-family:"Zen Dots";
-    font-size: xx-large;
+    font-size: x-large;
+    margin-left: 2%;
+    margin-top: 10%;
 
 }

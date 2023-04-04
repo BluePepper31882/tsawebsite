@@ -1,23 +1,41 @@
 .WorkSpace {
-  background-color: black;
-  height: 200vh;
-  width: 100vw;
   
-}
+  width: 100%;
   
-.body {
-  background-color: black;
 }
 
+
+
+
 .Title {
+  position: absolute;
   width: 70%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 75px;
+  margin-left: 15vw;
+  font-size: 2vw;
   font-family: "Zen Dots";
   margin-bottom: 1%;
   color: white;
+  text-shadow: 2px -2px 0 black,
+  2px 2px 0 black,
+  -2px -2px 0 black,
+  -2px 2px 0 black;
+}
+
+.Title2 {
+  position: absolute;
+  width: 70%;
+  margin-left: 15vw;
+  margin-top: 57vh;
+  text-align: center;
+  font-size: 3vw;
+  font-family: "Zen Dots";
+  margin-bottom: 1%;
+  color: white;
+  text-shadow: 2px -2px 0 black,
+  2px 2px 0 black,
+  -2px -2px 0 black,
+  -2px 2px 0 black;
 }
 
 * {
@@ -25,75 +43,86 @@
 }
 
 
-.CareerButton {
+.CareerButton, .CareerButton2, .CareerButton3 {
+  display: flex;
   color: white;
-  text-align: center;
-  width: 20vw;
+  height: 16vh;
   background-color: grey;
   margin-left: 10vw;
+  margin-top: 10vh;
+  z-index: 5;
+  
 }
 
-.HiddenText{
-  opacity: 0;
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.HiddenText, .HiddenText2, .HiddenText3{
   color: white;
   position: absolute;
-  left: 0;
-  width: 20vw;
-  margin-left: 10vw;
+  width: 16%;
+  margin-left: 2%;
+  margin-right: 2%;
+  opacity: 0;
+  margin-right: 120%;
   text-align: center;
   margin-top: 4vw;
   font-size: x-large;
-  z-index: 10;
+  z-index: 6;
+  transition: 2s;
 }
-
-.HiddenText:hover{
-  opacity: 1;  
-}
-
-.JackImage{
-  width: 20vw;
-  filter: brightness(100%);
-  -webkit-transition: brightness 1s;
-}
-
-.JackImage:hover{
-  filter: brightness(50%);
-  -webkit-transition: brightness 1s;
-}
-
-.JackImage:hover ~.HiddenText{
-  opacity: 1;
+.JackImage, .JackImage2, .JackImage3{
+  position: absolute;
   transition: 1s;
+  z-index: 4;
+  width: 40vh;
+  
 }
-
-.HiddenText:hover {
-  opacity: 1;
-  transition: 1s;
-}
-
-.HiddenText:hover +.JackImage {
-  filter: brightness(50%);
-  transition: 1s;
-}
-
-.Caption {
-  width: 100%;
+.Caption, .Caption2, .Caption3 {
+  margin-top: 41.8vh;
+  width: 40vh;
+  height: 25%;
   color: white;
   display: block;
+  font-family: "Zen Dots";
   text-align: center;
   background-color: grey;
-  font-size: xx-large;
+  font-size: 1.5vw;
 }
 
+
+.CareerButton:hover .JackImage, .CareerButton2:hover .JackImage2, .CareerButton3:hover .JackImage3{
+  filter: brightness(50%)
+
+}
 
 .intro{
-    font-family: "Poppins", sans-serif;
-    width: 50%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
+  position: absolute;
+  color: white;
+margin-top: 65vh;
+margin-left: 10vw;
+margin-right: 8vw;
+font-size: 1vw;
 }
+.text{
+  font-family: "Zen Dots";
+  
+}
+.CareerButton:hover .HiddenText, .CareerButton2:hover .HiddenText2, .CareerButton3:hover .HiddenText3{
+  opacity: 1;
+  transition: 2s; 
+
+}
+
+
+.buttons{
+  display: flex;
+}
+
+
+
+
 .trainingsubtitle{
   font-family: "Zen Dots";
   font-size: large;
@@ -116,75 +145,5 @@ body {
   display: none;
 }
 
-.entry {
-  display: inline-block;
-  vertical-align: top;
-  background: #13519C;
-  color: #fff;
-  padding: 10px;
-  font-size: 12px;
-  text-align: center;
-  position: relative;
-  border-top: 4px solid #06182E;
-  border-radius: 3px;
-  min-width: 200px;
-  max-width: 500px;
-}
-
-.entry img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.entry:after {
-  content: '';
-  display: block;
-  background: #eee;
-  width: 7px;
-  height: 7px;
-  border-radius: 6px;
-  border: 3px solid #06182E;
-  position: absolute;
-  left: 50%;
-  top: -30px;
-  margin-left: -6px;
-}
-
-.entry:before {
-  content: '';
-  display: block;
-  background: #06182E;
-  width: 5px;
-  height: 20px;
-  position: absolute;
-  left: 50%;
-  top: -20px;
-  margin-left: -2px;
-}
-
-.entry h1 {
-  color: #fff;
-  font-size: 18px;
-  font-family: Georgia, serif;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.entry h2 {
-  letter-spacing: .2em;
-  margin-bottom: 10px;
-  font-size: 14px;
-}
-
-.bar {
-  height: 4px;
-  background: #eee;
-  width: 100%;
-  position: relative;
-  top: 13px;
-  left: 0;
-}
 
 

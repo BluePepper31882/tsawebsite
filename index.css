@@ -49,6 +49,7 @@ header {
     font-family: 'Zen Dots';
     color: white;
     text-shadow: 0 0 5px black;
+    text-align: center;
 
 }
 section {
@@ -74,9 +75,7 @@ section {
 }
 
 
-@media only screen and (min-width: 768px) {
 
-}
 /* Star Styles */
 span
 {
@@ -241,9 +240,10 @@ a {
 }
 .image {
     position: absolute;
+    box-sizing: inherit;
     z-index: 1;
     width:100vw;
-    height: 100vh;
+    height: 100vh; 
 }
 .imageText {
     position: absolute;
@@ -264,3 +264,4 @@ a {
     margin-left: 15vw;
     width: 55vw;
 }
+

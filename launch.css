@@ -1,0 +1,33 @@
+.launchtext{
+    font-family:"Zen Dots";
+    font-size: larger;
+    margin-left: 3%; 
+    display: flex;
+    color: white;
+    vertical-align: left;
+
+}
+
+.above{
+    font-size: 1vw;
+
+}
+
+.under{
+    margin-right:5%;
+    color: white;
+}
+
+.launchtitle{
+    font-family:"Zen Dots";
+    font-size:x-large;
+    margin-left: 5%;
+    margin: 0%;
+}
+
+.usa{
+    color: rgb(70, 130, 180);
+    width: 65vw;
+    
+}
+
