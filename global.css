@@ -40,7 +40,7 @@ img.logo {
 }
 a.normalButton {
     margin-right: 25px;
-    font-size: 2vh;
+    font-size: 2.5vh;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
@@ -64,7 +64,7 @@ a.normalButton:hover::after {
 }
 a.specialButton {
     color: white;
-    font-size: 2vh;
+    font-size: 3vh;
     display: inline-block;
     position: relative;
     transition: 0.2s;

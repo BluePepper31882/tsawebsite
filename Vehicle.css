@@ -17,7 +17,7 @@
 
 .entireengine {
   padding-top: 2vh;
-  margin-top: 30vh;
+  margin-top: 75vh;
 }
 .Rocket {
     margin-bottom: 200px;
@@ -185,12 +185,17 @@
   font-family: "Zen Dots";
   font-size: 3vw;
   margin-left: 3vw;
+  display: inline-block;
 }
 
 .EnviText{
   position: absolute;
   font-family: "Zen Dots";
-  font-size: 1vw;
+  font-size: 1.4vw;
   margin-left:5vw;
+  display: inline-block;
 
+}
+.Environmental{
+  display: inline-block;
 }

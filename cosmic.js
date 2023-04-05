@@ -11,9 +11,9 @@ function mars(){
     document.getElementById('button2').style = "";
     
 
-    document.getElementById('ActivityOne').innerHTML = "Mars";
-    document.getElementById('ActivityTwo').innerHTML = "Mars";
-    document.getElementById('ActivityThree').innerHTML = "Third Mars Activity";
+    document.getElementById('ActivityOne').innerHTML = "Rover Racing";
+    document.getElementById('ActivityTwo').innerHTML = "Hike up Mount Olympus";
+    document.getElementById('ActivityThree').innerHTML = "Trip to Phobos and Deimos";
 
     document.getElementById('Description').innerHTML = "Our sister planet mars has always held humanity's eyes as our future home. While permanent residence has been achieved before, only with SpaceOne can you live on another planet in luxury. ";
     Calculate()
@@ -26,9 +26,9 @@ function asteroid(){
     document.getElementById('button2').style = "background-color: lightgray; color: black;";
     
 
-    document.getElementById('ActivityOne').innerHTML = "Attend a Lecture About Lunar Rocks from Dr. Landon Boa";
+    document.getElementById('ActivityOne').innerHTML = "";
     document.getElementById('ActivityTwo').innerHTML = "";
-    document.getElementById('ActivityThree').innerHTML = "Third Moon Activity";
+    document.getElementById('ActivityThree').innerHTML = "Buy a Small Asteroid to Mine";
 
     document.getElementById('Description').innerHTML = "Since the dawn of man, the moon has been the one constant in the night sky, always showing its bright face, just out of reach. Then, a century ago, humanity conquered the journey to the moon, reaching it in 3 days. Now, with Space One, you can not only reach the moon in less than a day, you can do it in a luxury vehicle makes the Titanic look like a crude art project.";
     Calculate()
@@ -77,9 +77,9 @@ function Calculate(){
     if (document.getElementById('earth').className == 'fadeIn') {price += 32000;}
     if (weeks== true) {price*= 1;}
     if (weeks== false) {price *= 1.8;}
-    if (document.getElementById('checkbox1').checked) {price += 5000;}
-    if (document.getElementById('checkbox2').checked) {price += 1600;}
-    if (document.getElementById('checkbox3').checked) {price += 2700;}
+    if (document.getElementById('checkbox1').checked) {price += 500000;}
+    if (document.getElementById('checkbox2').checked) {price += 160000;}
+    if (document.getElementById('checkbox3').checked) {price += 980000;}
     price = formatter = new Intl.NumberFormat('en-US', {
         style: 'currency',
         currency: 'USD',

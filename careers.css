@@ -1,5 +1,5 @@
 .WorkSpace {
-  
+  height: 105%;
   width: 100%;
   
 }
@@ -25,7 +25,6 @@
 .Title2 {
   position: absolute;
   width: 70%;
-  margin-left: 15vw;
   margin-top: 57vh;
   text-align: center;
   font-size: 3vw;
@@ -45,10 +44,10 @@
 
 .CareerButton, .CareerButton2, .CareerButton3 {
   display: flex;
+  justify-content: center;
   color: white;
   height: 16vh;
   background-color: grey;
-  margin-left: 10vw;
   margin-top: 10vh;
   z-index: 5;
   
@@ -65,10 +64,9 @@ body::-webkit-scrollbar {
   margin-left: 2%;
   margin-right: 2%;
   opacity: 0;
-  margin-right: 120%;
   text-align: center;
   margin-top: 4vw;
-  font-size: x-large;
+  font-size: 1.2vw;
   z-index: 6;
   transition: 2s;
 }
@@ -118,6 +116,7 @@ font-size: 1vw;
 
 .buttons{
   display: flex;
+  justify-content: space-evenly;
 }
 
 
@@ -153,6 +152,8 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   
+  transform: scale(1);
+  transition: 0.3s;
   text-align: center;
   border-style: solid;
   border-width: .2vw;
@@ -163,6 +164,12 @@ body {
   background-color: lightblue;
 }
 
+.date:hover {
+  transition: 0.6s;
+  transform: scale(1.25);
+  cursor: pointer;
+  overflow: hidden;
+}
 
 
 .datetitle {
@@ -177,8 +184,7 @@ body {
   background-color: black;
   position: absolute;
   width: 0.4vw;
-  height: 3vh;
-  margin-top: 82.6vh;
+  height: 3.2vh;
   top: 0;
 }
 .datetext {
