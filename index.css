@@ -7,7 +7,54 @@
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
+    filter: brightness(15%)
 }
+
+ 
+
+.newsletter{
+    position: absolute;
+    z-index: 100000;
+    background-color: rgb(70, 130, 180);
+    font-size: 5vh;
+    font-family: 'Zen Dots';
+    color: white;
+    text-shadow: 0 0 5px black;
+    text-align: left;
+    left: 21vw;
+    top: 30vh;
+    height: 50vh;
+    width: 120vh;
+    border-radius: 10px;
+    filter: brightness(100%);
+    
+}
+
+.x{
+    background-color: red;
+    font-size: x-large;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 10px;
+    font-family: 'Zen Dots';
+}
+
+
+
+.text{
+    padding-right: 10vh;
+    padding-left: 5vh;
+    font-size: 5vh;
+    text-shadow: 2px -2px 0 white,
+  2px 2px 0 white,
+  -2px -2px 0 white,
+  -2px 2px 0 white;
+}
+
+.text2{
+   padding-left: 2vh;
+}
+
 header {
     position: relative;
     display: flex;
@@ -16,6 +63,7 @@ header {
     height: 100%;
     transform-style: preserve-3d;
     z-index: -1;
+    
 }
 .wrapper::-webkit-scrollbar {
     display: none;
@@ -26,12 +74,13 @@ header {
 .background {
     position: absolute;
     height: 135%;
-    width: 100%;
+    width: 120%;
     object-fit: none;
     z-index: -1;
     box-sizing: inherit;
     transform: translateZ(-10px) scale(2);
     box-sizing: inherit;
+
 }
 .foreground {
     transform: translateZ(-5px) scale(1);
@@ -265,3 +314,54 @@ a {
     width: 55vw;
 }
 
+.gone{
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    
+    
+}
+
+.gone2 {
+    font-family: 'Zen Dots';
+    height: 100%;
+    font-size: 25px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    filter: brightness(100%);
+    transition: 1s;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.fname{
+    margin-left: 12vh;
+}
+.email{
+    margin-left: 15vw;
+    margin-top: 1vh;
+}
+
+.input {
+    
+    font-size: 5vh;
+}
+
+.submit{
+    margin-left: 22vw;
+    background-color: gray;
+    border: none;
+    box-shadow: 0 3px #999;
+    width: 15vw;
+    height: 5vh;
+    font-family: "Zen Dots";
+  }
+
+  .submit:active{
+    transform: translateY(.5vh);
+    box-shadow: 0 0px #999;
+  }

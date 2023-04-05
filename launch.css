@@ -3,13 +3,15 @@
     font-size: larger;
     margin-left: 3%; 
     display: flex;
-    color: white;
+    color: black;
     vertical-align: left;
 
 }
 
 
-
+body{
+    overflow: hidden;
+}
 .above{
     font-size: 1vw;
 

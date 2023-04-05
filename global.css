@@ -10,7 +10,6 @@ body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 /* Heading used on multiple web pages for navigation */
@@ -25,7 +24,7 @@ div.Header {
     display: flex;
     font-weight: bolder;
     left: 0;
-    height: 12vh;
+    
 }
 /* parts of the heading */
 img.logo {
@@ -41,7 +40,7 @@ img.logo {
 }
 a.normalButton {
     margin-right: 25px;
-    font-size: 15px;
+    font-size: 2vh;
     cursor: pointer;
     text-decoration: none;
     display: inline-block;
@@ -65,7 +64,7 @@ a.normalButton:hover::after {
 }
 a.specialButton {
     color: white;
-    font-size: 20px;
+    font-size: 2vh;
     display: inline-block;
     position: relative;
     transition: 0.2s;
